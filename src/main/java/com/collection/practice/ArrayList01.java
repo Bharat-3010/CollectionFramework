@@ -17,12 +17,16 @@ public class ArrayList01 {
 		System.out.println(list);
 		System.out.println(list.size());
 		
-//		try {
+		try {
 		System.out.println(list.get(5));  // IndexOutOfBoundException
-//		}catch (Exception e) {
-//			e.printStackTrace();
-//		}
+		}catch (Exception e) {
+			e.printStackTrace();
+		}
 		System.out.println(list.get(4));
+		
+	    list.forEach(name-> System.out.println(name));
+	   System.out.println("=========================");
+	    list.forEach(System.out::println);
 	}
 
 }
