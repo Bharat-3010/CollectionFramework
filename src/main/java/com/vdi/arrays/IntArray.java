@@ -21,7 +21,7 @@ public class IntArray {
 			System.out.println("Entered Numbers are :"+num[i]);
 		}
 		
-		
+		sc.close();
 	}
 
 }
