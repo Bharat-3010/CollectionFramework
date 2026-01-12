@@ -24,9 +24,9 @@ public class ArrayList01 {
 		}
 		System.out.println(list.get(4));
 		
-	    list.forEach(name-> System.out.println(name));
+	    list.forEach(name-> System.out.println(name));    //Java 8 Featues
 	   System.out.println("=========================");
-	    list.forEach(System.out::println);
+	    list.forEach(System.out::println);               //java 8
 	}
 
 }
